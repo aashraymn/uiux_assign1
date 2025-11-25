@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aashray Mahajan | Student Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f7f9fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      padding: 32px 40px;
+    }
+    h1, h4 {
+      text-align: center;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #2a4d69;
+      margin-bottom: 8px;
+    }
+    h4 {
+      color: #4b86b4;
+      margin-bottom: 32px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0 30px 0;
+      background: #f3f7fa;
+    }
+    th, td {
+      border: 1px solid #b2bec3;
+      padding: 10px 12px;
+      text-align: center;
+    }
+    th {
+      background: #dbeafe;
+      color: #1e293b;
+    }
+    ul.skills-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px 0;
+    }
+    ul.skills-list > li {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    ul.skills-list ul {
+      list-style: disc inside;
+      margin-left: 18px;
+      font-weight: normal;
+    }
+    .profile-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #4b86b4;
+    }
+    .linkedin-btn {
+      background: #0077b5;
+      color: #fff;
+      border: none;
+      padding: 7px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      margin-left: 8px;
+      transition: background 0.2s;
+    }
+    .linkedin-btn:hover {
+      background: #005983;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 16px 4vw;
+      }
+      table, th, td {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Aashray Mahajan</h1>
+    <h4>Student Portfolio</h4>
+
+    <section>
+      <h3>Education</h3>
+      <table>
+        <tr>
+          <th>Branch</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>ENC</td>
+          <td>3rd</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <ul class="skills-list">
+        <li>Skills
+          <ul>
+            <li>Digital Marketing</li>
+            <li>Event Management</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Contact Info</h3>
+      <table>
+        <tr>
+          <th>Photo</th>
+          <th>LinkedIn</th>
+        </tr>
+        <tr>
+          <td>
+            <img class="profile-img" src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" alt="Sample image"/>
+          </td>
+          <td>
+            <a href="https://www.linkedin.com/in/aashray-mahajan-b93895234/" target="_blank">
+              <button class="linkedin-btn">LinkedIn Profile</button>
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Number</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Aashray</td>
+          <td>9463647859</td>
+          <td>amahajan_be23@thapar.edu</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+</html>
